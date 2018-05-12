@@ -4725,7 +4725,7 @@ MonoBehaviour:
       categories:
       - 
       variableCategoryIDs: 00000000
-    description: "\u6253\u958BDEMO_2\u88E1\u9762\u7684DEMO_1\u3001DEMO_3\n\u53CAButtonHide"
+    description: 
     docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
