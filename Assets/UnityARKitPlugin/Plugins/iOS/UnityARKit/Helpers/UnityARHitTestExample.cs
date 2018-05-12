@@ -26,10 +26,10 @@ namespace UnityEngine.XR.iOS
 		
         private bool IsPointerOverUIObject()
         {
-            PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystems.current);
+            PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
             eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             List<RaycastResult> resuls = new List<RaycastResult>();
-            EventSystems.current.RaycastAll(eventDataCurrentPosition, resuls);
+            EventSystem.current.RaycastAll(eventDataCurrentPosition, resuls);
             return resuls.Count > 0;                       
         }
 
