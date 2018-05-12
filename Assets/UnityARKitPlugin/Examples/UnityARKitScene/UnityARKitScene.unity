@@ -351,6 +351,16 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013050899746, guid: 3ef6c72abb44a9e4282f7dfba927c2c8,
     type: 2}
   m_PrefabInternal: {fileID: 91389316}
+--- !u!1 &91389318 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000014132210558, guid: 3ef6c72abb44a9e4282f7dfba927c2c8,
+    type: 2}
+  m_PrefabInternal: {fileID: 91389316}
+--- !u!1 &91389319 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012350471344, guid: 3ef6c72abb44a9e4282f7dfba927c2c8,
+    type: 2}
+  m_PrefabInternal: {fileID: 91389316}
 --- !u!1 &229804520
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,7 +544,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &866525390
+--- !u!1001 &743009855
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -631,6 +641,26 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114052928250657046, guid: 6ab5a4a396b90294d8274dad8512d363,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmPropertyParams.Array.data[0].TargetObject.value
+      value: 
+      objectReference: {fileID: 91389319}
+    - target: {fileID: 114052928250657046, guid: 6ab5a4a396b90294d8274dad8512d363,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmPropertyParams.Array.data[1].TargetObject.value
+      value: 
+      objectReference: {fileID: 91389318}
+    - target: {fileID: 114208900989380952, guid: 6ab5a4a396b90294d8274dad8512d363,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmPropertyParams.Array.data[0].TargetObject.value
+      value: 
+      objectReference: {fileID: 91389319}
+    - target: {fileID: 114208900989380952, guid: 6ab5a4a396b90294d8274dad8512d363,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmPropertyParams.Array.data[1].TargetObject.value
+      value: 
+      objectReference: {fileID: 91389318}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ab5a4a396b90294d8274dad8512d363, type: 2}
   m_IsPrefabParent: 0
@@ -944,7 +974,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1286139107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1675177463}
