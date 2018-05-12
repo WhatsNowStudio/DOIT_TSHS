@@ -435,16 +435,16 @@ MonoBehaviour:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 148
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: UGUI / ON CLICK
+          name: GO
           isSystemEvent: 0
-          isGlobal: 1
+          isGlobal: 0
         toState: State 2
         linkStyle: 0
         linkConstraint: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - UGUI / ON CLICK
+        - GO
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
@@ -506,8 +506,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 84
-        y: 169
+        x: 51
+        y: 166
         width: 100
         height: 32
       isBreakpoint: 0
