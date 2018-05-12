@@ -1883,7 +1883,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "1_\u52A0\u71B1.mp4"
+        value: "1 \u52A0\u71B1.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -1907,7 +1907,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2241,7 +2241,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "5_\u6B98\u6E23\u5206\u985E_\u5E95\u90E8\u522E\u6E23.mp4"
+        value: "5 \u6B98\u6E23\u5206\u985E \u5E95\u90E8\u522E\u6E23.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -4950,7 +4950,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "0_\u5916\u89C0\u5C55\u793A.mp4"
+        value: "0 \u5916\u89C0\u5C55\u793A.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -4974,7 +4974,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -5273,7 +5273,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "3_\u5165\u6CB9\u70B8(\u96D9\u7DB2)_\u51FA\u6599\u65B9\u5F0F.mp4"
+        value: "3 \u5165\u6CB9\u70B8\u96D9\u7DB2 \u51FA\u6599\u65B9\u5F0F.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -5396,7 +5396,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114033772547955474}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 102900000, guid: 7169f9e9a2c848941be1857e964cb0e5, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114361967280706672
@@ -5598,7 +5609,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "7_\u6E05\u6D17\u65B9\u5F0F.mp4"
+        value: "7 \u6E05\u6D17\u65B9\u5F0F.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -6205,7 +6216,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "2_\u6CB9\u7684\u5FAA\u74B0.mp4"
+        value: "2 \u6CB9\u7684\u5FAA\u74B0.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -6948,7 +6959,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "8_\u65CB\u8F49\u98A8\u5200\u904E\u6FFE\u7CFB\u7D71(\u9078\u914D).mp4"
+        value: "8 \u65CB\u8F49\u98A8\u5200\u904E\u6FFE\u7CFB\u7D71\u9078\u914D.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -7259,7 +7270,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "6_\u4E0A\u84CB\u8F38\u9001\u7DB2\u5347\u964D.mp4"
+        value: "6 \u4E0A\u84CB\u8F38\u9001\u7DB2\u5347\u964D.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -7987,7 +7998,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "4_\u904B\u8F38\u5F0F\u7C97\u904E\u6FFE_\u7D30\u904E\u6FFE\u7684\u9664\u6E23\u65B9\u5F0F.mp4"
+        value: "4 \u904B\u8F38\u5F0F\u7C97\u904E\u6FFE \u7D30\u904E\u6FFE\u7684\u9664\u6E23\u65B9\u5F0F.mp4"
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
