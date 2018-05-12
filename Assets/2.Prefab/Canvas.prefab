@@ -1821,7 +1821,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: "1 \u52A0\u71B1.mp4"
+          value: New Google AI Can Have Real Life Conversations With Strangers.mp4
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1883,7 +1883,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "1 \u52A0\u71B1.mp4"
+        value: New Google AI Can Have Real Life Conversations With Strangers.mp4
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -4950,7 +4950,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: "0 \u5916\u89C0\u5C55\u793A.mp4"
+        value: 0 Exterior.mp4
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
