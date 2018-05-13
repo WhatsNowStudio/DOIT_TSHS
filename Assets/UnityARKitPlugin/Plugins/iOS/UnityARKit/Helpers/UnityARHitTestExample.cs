@@ -10,6 +10,8 @@ namespace UnityEngine.XR.iOS
 		public float maxRayDistance = 30.0f;
 		public LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 
+        private bool isDetecting;
+
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
             List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
@@ -24,7 +26,17 @@ namespace UnityEngine.XR.iOS
             }
             return false;
         }
-		
+
+        public void Start()
+        {
+            isDetecting = true;
+        }
+
+        public void DetectionOff()
+        {
+            isDetecting = false;
+        }
+
         private bool IsPointerOverUIObject()
         {
             PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
@@ -56,7 +68,7 @@ namespace UnityEngine.XR.iOS
 			if (Input.touchCount > 0 && m_HitTransform != null)
 			{
 				var touch = Input.GetTouch(0);
-				if ((touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved) && !IsPointerOverUIObject())
+				if ((touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved) && !IsPointerOverUIObject() && isDetecting == true)
 				{
 					var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
 					ARPoint point = new ARPoint {
