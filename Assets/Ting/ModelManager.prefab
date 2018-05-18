@@ -1300,7 +1300,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: Obj/FocusSquare
+          name: Obj/FocusSquareFocused
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -2002,6 +2002,12 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
+        name: Obj/FocusSquareFocused
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: Obj/Model
         tooltip: 
         showInInspector: 1
@@ -2027,7 +2033,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
