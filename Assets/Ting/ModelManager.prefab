@@ -1264,13 +1264,13 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
     - name: "\u653E\u5165\u6A21\u578B"
-      description: "#\u6253\u958B\u6A21\u578B"
+      description: "#\u6A21\u578B\u7236\u7D1A\u70BA\u5075\u6E2C\u584A\uFF0C\u4E26\u5C07\u4F4D\u7F6E\u6B78\u96F6\u4EE5\u5B9A\u4F4D\n#\u6253\u958B\u6A21\u578B\n#\u6A21\u578B\u7684\u7236\u7D1A\u62FF\u6389"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 871
         y: 271
-        width: 100
+        width: 176.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1288,13 +1288,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.SetParent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: ea32a105b2cf1000
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000400000009000000
+        actionHashCodes: ea32a105b2cf1000ea32a105
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -1303,7 +1305,21 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Model
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -1358,6 +1374,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -1369,7 +1397,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001300000011000000110000001400000011000000110000000100000001000000
+        paramDataType: 14000000130000001100000011000000140000001100000011000000010000000100000014000000130000001100000011000000
         paramName:
         - gameObject
         - parent
@@ -1380,15 +1408,19 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 000000000000000000000000010000000100000002000000030000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000001000000
+        - gameObject
+        - parent
+        - resetLocalPosition
+        - resetLocalRotation
+        paramDataPos: 00000000000000000000000001000000010000000200000003000000000000000100000002000000010000000400000005000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000
     - name: "\u95DC\u9589\u5075\u6E2C\u529F\u80FD"
       description: "#\u9EC3\u6846"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 881
-        y: 354
+        x: 899
+        y: 396
         width: 102
         height: 32
       isBreakpoint: 0
@@ -1474,8 +1506,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 876
-        y: 508.02344
+        x: 894
+        y: 550.02344
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1561,8 +1593,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 880
-        y: 573.02344
+        x: 898
+        y: 615.02344
         width: 115
         height: 32
       isBreakpoint: 0
@@ -1688,8 +1720,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 679
-        y: 591
+        x: 697
+        y: 633
         width: 115
         height: 16
       isBreakpoint: 0
@@ -1812,8 +1844,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 879
-        y: 432
+        x: 897
+        y: 474
         width: 118
         height: 32
       isBreakpoint: 0
