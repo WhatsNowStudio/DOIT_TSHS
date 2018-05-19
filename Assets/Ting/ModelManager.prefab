@@ -452,12 +452,12 @@ MonoBehaviour:
     startState: "-----\u521D\u59CB\u5316----"
     states:
     - name: "-----\u521D\u59CB\u5316----"
-      description: "#\u9810\u8A2D\u95DC\u9589\u6A21\u578B\n#\u6253\u958BPut\u6309\u9215\n#\u95DC\u9589Reset\u6309\u9215\n#\u958B\u555F\u5075\u6E2C\u529F\u80FD\n#\u64AD\u653E\u958B\u555FUI\u52D5\u4F5C"
+      description: "#\u9810\u8A2D\u95DC\u9589\u6A21\u578B\n#\u6253\u958BPut\u6309\u9215\n#\u95DC\u9589Reset\u6309\u9215\n#\u958B\u555F\u5075\u6E2C\u529F\u80FD\n#\u958B\u555F\u85CD\u8272\u6846\n#\u64AD\u653E\u958B\u555FUI\u52D5\u4F5C"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 58
-        y: 102
+        x: 51
+        y: 104
         width: 124
         height: 32
       isBreakpoint: 0
@@ -478,6 +478,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetAnimatorBool
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
@@ -487,10 +488,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000000000101
-        actionStartIndex: 00000000050000000a0000000f0000001400000019000000
-        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf10005f91350488611604
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 00000000000001
+        actionStartIndex: 00000000050000000a0000000f00000014000000180000001d000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf10005e69bb045f91350488611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -537,7 +539,39 @@ MonoBehaviour:
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 4
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
@@ -551,7 +585,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -614,13 +654,14 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
+        - Hide
         - Go
-        byteData: 00000000000000000000000000
+        byteData: 0000000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000140000001200000011000000010000000700000017000000
+        paramDataType: 14000000110000001100000001000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001f000000170000000f00000001000000140000001200000011000000010000000700000017000000
         paramName:
         - gameObject
         - activate
@@ -642,21 +683,25 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
         - gameObject
         - parameter
         - Value
         - everyFrame
         - everyFrameOption
         - sendEvent
-        paramDataPos: 0000000000000000010000000000000001000000010000000200000003000000020000000300000002000000040000000500000004000000050000000300000006000000070000000600000007000000040000000000000008000000080000000900000000000000
-        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000400000000000000
+        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000200000004000000050000000400000005000000030000000600000007000000060000000700000000000000000000000000000008000000040000000000000008000000090000000a00000001000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000000000000000000000000000010000000400000000000000
     - name: "\u5075\u6E2CFocusSquareFocused\u662F\u5426\u6253\u958B"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 199
-        y: 242
+        x: 231
+        y: 194
         width: 241
         height: 32
       isBreakpoint: 0
@@ -865,8 +910,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 540
-        y: 240
+        x: 572
+        y: 192
         width: 241
         height: 48
       isBreakpoint: 0
@@ -1096,8 +1141,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 542
-        y: 168
+        x: 574
+        y: 120
         width: 126
         height: 32
       isBreakpoint: 0
@@ -1182,8 +1227,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 245
-        y: 170
+        x: 277
+        y: 122
         width: 138
         height: 32
       isBreakpoint: 0
@@ -1268,8 +1313,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 871
-        y: 271
+        x: 903
+        y: 223
         width: 176.5
         height: 32
       isBreakpoint: 0
@@ -1415,12 +1460,12 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000001000000010000000200000003000000000000000100000002000000010000000400000005000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000
     - name: "\u95DC\u9589\u5075\u6E2C\u529F\u80FD"
-      description: "#\u9EC3\u6846"
+      description: "#\u95DC\u9589\u85CD\u8272\u6846"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 899
-        y: 396
+        x: 931
+        y: 348
         width: 102
         height: 32
       isBreakpoint: 0
@@ -1437,13 +1482,15 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: b2cf1000
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 5e69bb04b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1458,7 +1505,39 @@ MonoBehaviour:
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 4
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
@@ -1466,7 +1545,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -1486,28 +1571,33 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0000
+        stringParams:
+        - Hide
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000011000000110000000100000001000000
+        paramDataType: 1f000000170000000f000000010000001400000011000000110000000100000001000000
         paramName:
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
         - gameObject
         - activate
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000001000000
-        paramByteDataSize: 0000000000000000000000000100000001000000
+        paramDataPos: 000000000000000000000000000000000000000000000000010000000100000002000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000100000001000000
     - name: "\u95DC\u9589Put\u4ECB\u9762"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 894
-        y: 550.02344
+        x: 926
+        y: 502.02344
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1593,8 +1683,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 898
-        y: 615.02344
+        x: 930
+        y: 567.02344
         width: 115
         height: 32
       isBreakpoint: 0
@@ -1720,8 +1810,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 697
-        y: 633
+        x: 729
+        y: 585
         width: 115
         height: 16
       isBreakpoint: 0
@@ -1844,8 +1934,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 897
-        y: 474
+        x: 929
+        y: 426
         width: 118
         height: 32
       isBreakpoint: 0
@@ -1948,6 +2038,9 @@ MonoBehaviour:
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
+    - name: Hide
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Inside_0
       isSystemEvent: 0
       isGlobal: 0

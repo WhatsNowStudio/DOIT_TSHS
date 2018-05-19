@@ -32,3 +32,5 @@ MonoBehaviour:
     variableCategoryIDs: 
   events:
   - Process
+  - Hide
+  - Show
