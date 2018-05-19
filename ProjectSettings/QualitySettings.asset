@@ -10,7 +10,7 @@ QualitySettings:
     name: Good
     pixelLightCount: 2
     shadows: 2
-    shadowResolution: 3
+    shadowResolution: 2
     shadowProjection: 0
     shadowCascades: 2
     shadowDistance: 20
@@ -21,7 +21,7 @@ QualitySettings:
     blendWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 4
+    antiAliasing: 2
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 1
