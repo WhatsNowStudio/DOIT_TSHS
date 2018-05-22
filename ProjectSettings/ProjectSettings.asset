@@ -183,7 +183,7 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 7.0
+  iOSTargetOSVersionString: 9.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 9.0
@@ -656,7 +656,7 @@ PlayerSettings:
     26: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_9;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER_UTILS
     27: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_9;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER_UTILS
   platformArchitecture:
-    iOS: 2
+    iOS: 1
   scriptingBackend:
     Android: 0
     Metro: 2
