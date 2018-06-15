@@ -255,7 +255,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 47b7c678b632dc4439819f8a23534fb7, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &849431657
+--- !u!1001 &793742286
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -535,43 +535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78da3f00f3328541b4526c0b0b5ec5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineThickness: 1.25
-  lineIntensity: 3.2
-  fillAmount: 0.2
-  lineColor0:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  lineColor1:
-    r: 0
-    g: 1
-    b: 0
-    a: 1
-  lineColor2:
-    r: 0
-    g: 0
-    b: 1
-    a: 1
-  additiveRendering: 1
-  backfaceCulling: 1
-  cornerOutlines: 0
-  addLinesBetweenColors: 0
-  scaleWithScreenSize: 1
-  alphaCutoff: 0.5
-  flipY: 0
-  sourceCamera: {fileID: 1645173334}
-  outlineCamera: {fileID: 732590539}
-  outline1Material: {fileID: 0}
-  outline2Material: {fileID: 0}
-  outline3Material: {fileID: 0}
-  outlineEraseMaterial: {fileID: 0}
-  outlineShader: {fileID: 0}
-  outlineBufferShader: {fileID: 0}
-  outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 872813421}
-  extraRenderTexture: {fileID: 0}
-  materialBuffer: []
 --- !u!114 &1645173337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,4 +546,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12900426d1676a42b765db03ad85b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pingPong: 0
