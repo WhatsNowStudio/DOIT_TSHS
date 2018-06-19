@@ -49,18 +49,34 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.GetParent
         - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 27fbe103a4c8bf00
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000200000005000000
+        actionHashCodes: d97b720227fbe103a4c8bf00
         unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/Parent
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u9078\u914D\u7269\u4EF6\u96C6/\u4E0D\u900F\u660E"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -106,8 +122,10 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000011000000170000001700000001000000
+        paramDataType: 140000001300000011000000110000000100000011000000170000001700000001000000
         paramName:
+        - gameObject
+        - storeResult
         - boolVariable
         - boolValue
         - everyFrame
@@ -115,8 +133,8 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 00000000010000000000000002000000000000000100000001000000
-        paramByteDataSize: 00000000000000000100000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000010000000000000002000000000000000100000001000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000001000000
     - name: "\u53D6\u5F97\u6309\u7D10"
       description: 
       colorIndex: 0
@@ -1136,7 +1154,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 01000000
         actionStartIndex: 0000000004000000090000000e000000
         actionHashCodes: ea32a105b2cf1000b2cf1000b2cf1000
         unityObjectParams: []
@@ -1281,8 +1299,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 698
-        y: 293
+        x: 713
+        y: 307
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1311,15 +1329,15 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000001
+        actionIsOpen: 0100000001
         actionStartIndex: 0000000004000000090000000e00000013000000
         actionHashCodes: ea32a105b2cf1000b2cf1000b2cf1000a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: "Obj/\u5168\u7269\u4EF6/\u4E0D\u900F\u660E"
+          name: Obj/Parent
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
@@ -2697,6 +2715,12 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
+        name: Obj/Parent
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: Obj/Public
         tooltip: 
         showInInspector: 0
@@ -2758,7 +2782,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: "1.\u6307\u5B9A\u4E00\u500B\u5305\u542B\u5404\u9078\u914D\u6A21\u578B\u7684\u76EE\u9304\n2.\u6309\u9215\u540D\u7A31\u8981\u8207\u6A21\u578B\u5339\u914D\n3.\u9700\u6307\u5B9A\u9810\u8A2D\u7684\u9078\u914D\u6309\u9215\n4.\u82E5\u9810\u8A2D\u6309\u9215\u70BA\u7121\uFF0C\u5247\u4E00\u958B\u59CB\u4E0D\u6703\u900F\u660E\n"
     docUrl: 
     showStateLabel: 0
