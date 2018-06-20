@@ -10,10 +10,10 @@ QualitySettings:
     name: Good
     pixelLightCount: 2
     shadows: 2
-    shadowResolution: 2
+    shadowResolution: 1
     shadowProjection: 0
     shadowCascades: 2
-    shadowDistance: 15
+    shadowDistance: 11
     shadowNearPlaneOffset: 2
     shadowCascade2Split: 0.18747914
     shadowCascade4Split: {x: 0.045206472, y: 0.19999997, z: 0.46666664}
