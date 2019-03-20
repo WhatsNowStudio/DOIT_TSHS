@@ -852,13 +852,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.PlayerPrefsGetString
         - HutongGames.PlayMaker.Actions.uGuiInputFieldSetText
+        - HutongGames.PlayMaker.Actions.uGuiInputFieldSetText
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 1898da0009fbab04
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000060000000a000000
+        actionHashCodes: 1898da0009fbab0409fbab04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -870,6 +872,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 1237389969077724}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1312707185186810}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -883,6 +893,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Account
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Password
         - useVariable: 1
           name: "\u5E33\u865F"
           tooltip: 
@@ -890,7 +906,19 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
+          name: "\u5BC6\u78BC"
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
           name: "\u5E33\u865F"
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: "\u5BC6\u78BC"
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -908,31 +936,43 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00
-        arrayParamSizes: 0100000001000000
+        byteData: 0000
+        arrayParamSizes: 0200000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000000c0000001200000014000000120000001100000001000000
+        paramDataType: 0c00000012000000120000000c00000012000000120000001400000012000000110000000100000014000000120000001100000001000000
         paramName:
         - keys
         - 
+        - 
         - variables
+        - 
         - 
         - gameObject
         - text
         - resetOnExit
         - everyFrame
-        paramDataPos: 0000000000000000010000000100000000000000020000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
+        - gameObject
+        - text
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000100000002000000030000000000000004000000000000000000000001000000050000000100000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
     - name: State 2
       description: 
       colorIndex: 0
@@ -1374,8 +1414,20 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Account
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Password
         - useVariable: 1
           name: "\u5E33\u865F"
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: "\u5BC6\u78BC"
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1406,13 +1458,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 00
-        arrayParamSizes: 0100000001000000
+        arrayParamSizes: 0200000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000100000000f000000010000000c000000120000000c00000012000000
+        paramDataType: 1400000012000000100000000f000000010000000c00000012000000120000000c0000001200000012000000
         paramName:
         - gameObject
         - stateName
@@ -1421,10 +1473,12 @@ MonoBehaviour:
         - everyFrame
         - keys
         - 
+        - 
         - values
         - 
-        paramDataPos: 000000000000000000000000000000000000000000000000010000000100000002000000
-        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000
+        - 
+        paramDataPos: 0000000000000000000000000000000000000000000000000100000002000000010000000300000004000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
     - name: error
       description: 
       colorIndex: 0
@@ -1581,7 +1635,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
