@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 224301477526832882}
   - component: {fileID: 222405525669710790}
   - component: {fileID: 114362408930923130}
+  - component: {fileID: 114646645413600470}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -72,6 +73,7 @@ GameObject:
   - component: {fileID: 224896760811834422}
   - component: {fileID: 222854086260951704}
   - component: {fileID: 114139925202158818}
+  - component: {fileID: 114509501321374964}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -946,6 +948,18 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114509501321374964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1610876029125434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: FocusSquareScene_Text_-96068
 --- !u!114 &114550700151939136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -987,6 +1001,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114646645413600470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1116614102306372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: FocusSquareScene_Text_-96106
 --- !u!114 &114780345572847198
 MonoBehaviour:
   m_ObjectHideFlags: 1
