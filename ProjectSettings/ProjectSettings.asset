@@ -382,8 +382,8 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR BABY
-  locationUsageDescription: 
+  cameraUsageDescription: AR Kit Need Camera!
+  locationUsageDescription: AR Kit Need Camera!
   microphoneUsageDescription: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144

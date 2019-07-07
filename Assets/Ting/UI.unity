@@ -220,6 +220,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].transitions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224727249223022528, guid: 2b823fa9ce200d64b94bf687627a2659,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -310,9 +315,136 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].position.y
+      value: 148.10156
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 224
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 107
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].position.x
+      value: 223
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].position.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[3].position.y
+      value: 236
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[4].position.y
+      value: 211
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[5].position.y
+      value: 341
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[6].position.y
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[7].position.y
+      value: 519
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[8].position.y
+      value: 233
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.stringParams.Array.data[1]
+      value: N
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].position.height
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].transitions.Array.data[1].fsmEvent.name
+      value: N
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].transitions.Array.data[1].toState
+      value: error
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[4].position.x
+      value: 433
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[4].actionData.actionIsOpen.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[8].position.x
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[4].actionData.actionIsOpen.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.actionIsOpen.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114846250461729882, guid: 2b823fa9ce200d64b94bf687627a2659,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.actionIsOpen.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b823fa9ce200d64b94bf687627a2659, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &605726346 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1577636799835158, guid: 2b823fa9ce200d64b94bf687627a2659,
+    type: 2}
+  m_PrefabInternal: {fileID: 529246876}
+--- !u!114 &605726347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 605726346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b91f5ae514ef684795dd54f218c44dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ReachabilityText: 
 --- !u!1 &732590538
 GameObject:
   m_ObjectHideFlags: 0
