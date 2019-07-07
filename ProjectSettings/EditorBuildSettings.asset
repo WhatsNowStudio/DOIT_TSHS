@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MainScene.unity
     guid: b0b66d323b5e2c749aaf7e7562240226
-  - enabled: 1
+  - enabled: 0
     path: Assets/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity
     guid: c159f2591a9b5c843b0a0442451f78f8
+  - enabled: 1
+    path: Assets/sds.unity
+    guid: 01e0e8a3b86a6dc4b8736191291b8e7c
